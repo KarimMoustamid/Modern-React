@@ -7,6 +7,8 @@ const users = [
 ];
 
 
+users.sort((a, b) => a.age < b.age ? -1 : 1);
+
 const forArray = [];
 // ------------------- First Solution -------------------
 for(let i = 0; i < users.length; i++){
