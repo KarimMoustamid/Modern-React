@@ -1,3 +1,4 @@
+// Create a counter with a private incrementor function
 const privateCounter = () => {
     let count = 0;
     return {
